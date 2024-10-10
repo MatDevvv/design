@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  overflow: visible;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.logo {
+  max-height: 120%;
+  width: 140px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.bibi-search {
+  color: rgb(0, 0, 0);
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  right: 20px;
+}
+.bibi-list {
+  color: rgb(0, 0, 0);
+  display: flex;
+  position: absolute;
+  left: 20px;
+  align-items: center;
+}
+.icons-container svg {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.background-sobreposto {
+  background-image: url("../images/backgroundbody.png");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.futuro {
+  font-style: bold;
+  padding-top: 300px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  user-select: none;
+}
+.body {
+  border-radius: 70px;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/Rectangle\ 1.png .png");
+  height: 100vh;
+}
+.wrap-logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+}
+.wrap-logo img {
+  padding-top: 100px;
+}
+.wrap-box {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 0px;
+  justify-content: center;
+}
+.box img {
+  width: 500px;
+  padding-top: 100px;
+  padding: 30px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+}
+.wrap-images img {
+  width: 500px;
+  padding-top: 100px;
+  padding: 30px;
+}
+.wrap-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+}
+.wrap-image2 img {
+  width: 500px;
+  padding-top: 100px;
+  padding: 30px;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    padding: 0px;
+    margin: 0 auto;
+    padding-right: 10px;
+  }
+  header {
+    height: 120px;
+  }
+  .logo {
+    width: 120px;
+  }
+
+  .options {
+    gap: 5px;
+  }
+
+  .options a {
+    font-size: 18px;
+  }
+
+  .icons-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .options a {
+    font-size: 20px;
+  }
+  .box img {
+    width: 400;
+  }
+}
